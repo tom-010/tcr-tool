@@ -1,4 +1,5 @@
 while true
 do
     ./test
+    sleep 3
 done
