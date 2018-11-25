@@ -24,7 +24,7 @@ public class TcrCoreIdeaTests {
 
     }
 
-    public static class BuilderMock {
+    public static class BuilderMock implements Builder {
 
     }
 }
