@@ -7,7 +7,7 @@ import org.junit.Test;
 public class TcrCoreIdeaTests {
 
 
-    BuilderMock builder;
+    private BuilderMock builder;
 
     @Before
     public void setUp() {
