@@ -36,8 +36,7 @@ public class TcrCoreIdeaTests {
         tcr.execute();
         assertTrue(commiter.commitWasTriggered);
     }
-
-    @Ignore
+    
     @Test
     public void ifBuildWasNotSuccessful_noCommit() {
         builder.nextResult = false;
