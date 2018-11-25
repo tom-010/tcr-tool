@@ -9,6 +9,6 @@ public class Tcr {
     }
 
     public void execute() {
-
+        builder.build();
     }
 }
