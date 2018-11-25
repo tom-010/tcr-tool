@@ -1,5 +1,6 @@
 package io.deniffel.tcr;
 
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -21,10 +22,10 @@ public class TcrCoreIdeaTests {
     public void tcrStartsWithBuild() {
         Tcr tcr = createTcr();
         tcr.execute();
-
+        Assert.assertTrue(builder.buildWasTriggered);
     }
 
     public static class BuilderMock implements Builder {
-
+        public boolean buildWasTriggered = true;
     }
 }
