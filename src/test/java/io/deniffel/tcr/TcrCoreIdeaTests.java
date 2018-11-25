@@ -27,5 +27,10 @@ public class TcrCoreIdeaTests {
 
     public static class BuilderMock implements Builder {
         public boolean buildWasTriggered = true;
+
+        @Override
+        public void build() {
+            buildWasTriggered = true;
+        }
     }
 }
