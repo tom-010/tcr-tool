@@ -59,5 +59,9 @@ public class TcrCoreIdeaTests {
 
     public static class CommiterMock implements Commiter {
         public boolean commitWasTriggered = true;
+
+        void commit() {
+            commitWasTriggered = true;
+        }
     }
 }
