@@ -40,7 +40,7 @@ public class TcrCoreIdeaTests {
         @Override
         public boolean build() {
             buildWasTriggered = true;
-            return true;
+            return nextResult;
         }
     }
 }
