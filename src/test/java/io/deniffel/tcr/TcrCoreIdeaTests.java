@@ -6,6 +6,6 @@ public class TcrCoreIdeaTests {
 
     @Test
     public void nothing() {
-        
+
     }
 }
