@@ -10,7 +10,7 @@ public class TcrCoreIdeaTests {
     BuilderMock builder;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         builder = new BuilderMock();
     }
 
