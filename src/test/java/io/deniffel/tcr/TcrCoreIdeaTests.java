@@ -8,6 +8,7 @@ public class TcrCoreIdeaTests {
     public void tcrStartsWithBuild() {
 
         Tcr tcr = new Tcr();
+        tcr.execute();
 
     }
 }
