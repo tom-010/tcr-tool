@@ -2,10 +2,10 @@ package io.deniffel.tcr;
 
 public class Tcr {
 
-    private final Reverter reverter;
-    private Commiter commiter;
     private Builder builder;
     private Tester tester;
+    private Commiter commiter;
+    private Reverter reverter;
 
     public Tcr(Builder builder, Tester tester, Commiter commiter, Reverter reverter) {
         this.builder = builder;
