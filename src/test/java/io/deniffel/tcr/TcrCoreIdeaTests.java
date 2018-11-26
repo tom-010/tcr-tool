@@ -29,14 +29,14 @@ public class TcrCoreIdeaTests {
     }
 
     @Test
-    public void ifBuildWasSuccessful_testsAreExecuted() {
+    public void buildWasSuccessful_testsAreExecuted() {
         builder.nextResult = true;
         tcr.execute();
         assertTrue(tester.commitWasTriggered);
     }
 
     @Test
-    public void ifBuildWasNotSuccessful_toTestsAreExecuted() {
+    public void buildWasNotSuccessful_toTestsAreExecuted() {
         builder.nextResult = false;
         tcr.execute();
         assertFalse(tester.commitWasTriggered);
@@ -57,8 +57,10 @@ public class TcrCoreIdeaTests {
     public static class TesterMock implements Tester {
         public boolean commitWasTriggered = false;
 
-        public void test() {
+        @Override
+        public boolean test() {
             commitWasTriggered = true;
+            return true;
         }
     }
 }
