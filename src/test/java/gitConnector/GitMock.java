@@ -2,7 +2,7 @@ package gitConnector;
 
 import io.deniffel.tcr.gitConnector.Git;
 
-public class GitMock implements Git {
+public class GitMock extends Git {
 
     public boolean commitWasTriggered = false;
     public boolean resetWasTriggered = false;
