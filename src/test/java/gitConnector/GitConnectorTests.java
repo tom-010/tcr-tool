@@ -1,10 +1,13 @@
 package gitConnector;
 
 import io.deniffel.tcr.core.Commiter;
+import io.deniffel.tcr.core.Reverter;
 import io.deniffel.tcr.gitConnector.GitConnector;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 public class GitConnectorTests {
 
@@ -17,6 +20,11 @@ public class GitConnectorTests {
 
     @Test
     public void instanceOfCommiter() {
-        Assert.assertTrue(gitConnector instanceof Commiter);
+        assertTrue(gitConnector instanceof Commiter);
+    }
+
+    @Test
+    public void instanceOfReverter() {
+        assertTrue(gitConnector instanceof Reverter);
     }
 }
