@@ -40,14 +40,16 @@
           <file leaf-file-name="GitConnectorTests.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="756">
-                  <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+                <state relative-caret-position="774">
+                  <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#566#567#0" expanded="true" />
                     <element signature="e#626#627#0" expanded="true" />
                     <element signature="e#676#677#0" expanded="true" />
                     <element signature="e#736#737#0" expanded="true" />
+                    <element signature="e#1005#1006#0" expanded="true" />
+                    <element signature="e#1054#1055#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -763,7 +765,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
-      <workItem from="1543172342523" duration="6126000" />
+      <workItem from="1543172342523" duration="6137000" />
     </task>
     <servers />
   </component>
@@ -800,7 +802,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6126000" />
+    <option name="totallyTimeSpent" value="6137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="2880" height="1624" extended-state="6" />
@@ -974,14 +976,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="774">
+          <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#566#567#0" expanded="true" />
             <element signature="e#626#627#0" expanded="true" />
             <element signature="e#676#677#0" expanded="true" />
             <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -41,7 +41,7 @@ public class GitConnectorTests {
         public boolean commitWasTriggered = true;
 
         public void commit() {
-
+            commitWasTriggered = true;
         }
     }
 
