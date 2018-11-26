@@ -39,7 +39,8 @@ public class GitConnectorTests {
 
     @Test
     public void revert_triggersGitReset() {
-
+        gitConnector.revert();
+        assertTrue(git.resetWasTriggered);
     }
 
     public static class GitMock implements Git {
