@@ -1,8 +1,6 @@
 package io.deniffel.tcr;
 
-import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -11,17 +9,17 @@ public class TcrCoreIdeaTests {
 
     private Tcr tcr;
     private BuilderMock builder;
-    private CommiterMock commiter;
+    private TesterMock tester;
 
     @Before
     public void setUp() {
-        commiter = new CommiterMock();
+        tester = new TesterMock();
         builder = new BuilderMock();
         tcr = createTcr();
     }
 
     Tcr createTcr() {
-        return new Tcr(builder, commiter);
+        return new Tcr(builder, tester);
     }
 
     @Test
@@ -31,19 +29,19 @@ public class TcrCoreIdeaTests {
     }
 
     @Test
-    public void ifBuildWasSuccessful_commit() {
+    public void ifBuildWasSuccessful_testsAreExecuted() {
         builder.nextResult = true;
         tcr.execute();
-        assertTrue(commiter.commitWasTriggered);
+        assertTrue(tester.commitWasTriggered);
     }
 
     @Test
-    public void ifBuildWasNotSuccessful_noCommit() {
+    public void ifBuildWasNotSuccessful_toTestsAreExecuted() {
         builder.nextResult = false;
         tcr.execute();
-        assertFalse(commiter.commitWasTriggered);
+        assertFalse(tester.commitWasTriggered);
     }
-    
+
 
     public static class BuilderMock implements Builder {
         public boolean buildWasTriggered = false;
@@ -56,10 +54,10 @@ public class TcrCoreIdeaTests {
         }
     }
 
-    public static class CommiterMock implements Commiter {
+    public static class TesterMock implements Tester {
         public boolean commitWasTriggered = false;
 
-        public void commit() {
+        public void test() {
             commitWasTriggered = true;
         }
     }

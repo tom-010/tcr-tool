@@ -3,15 +3,15 @@ package io.deniffel.tcr;
 public class Tcr {
 
     Builder builder;
-    Commiter commiter;
+    Tester tester;
 
-    public Tcr(Builder builder, Commiter commiter) {
+    public Tcr(Builder builder, Tester tester) {
         this.builder = builder;
-        this.commiter = commiter;
+        this.tester = tester;
     }
 
     public void execute() {
         if(builder.build())
-            commiter.commit();
+            tester.test();
     }
 }

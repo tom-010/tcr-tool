@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad0773a-4be2-4f91-95e9-74a159c69559" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Commiter.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Tester.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Tcr.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Tcr.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java" afterPath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,15 +29,15 @@
           <file leaf-file-name="TcrCoreIdeaTests.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="670">
-                  <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+                <state relative-caret-position="274">
+                  <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#451#452#0" expanded="true" />
-                    <element signature="e#500#501#0" expanded="true" />
+                    <element signature="e#393#394#0" expanded="true" />
+                    <element signature="e#440#441#0" expanded="true" />
                     <element signature="class#BuilderMock#0;class#TcrCoreIdeaTests#0" expanded="false" />
-                    <element signature="e#1413#1414#0" expanded="true" />
-                    <element signature="e#1462#1463#0" expanded="true" />
+                    <element signature="e#1359#1360#0" expanded="true" />
+                    <element signature="e#1408#1409#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -58,17 +61,17 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Tcr.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="252">
-                  <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+                  <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Commiter.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Commiter.java">
+          <file leaf-file-name="Tester.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Tester.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="72">
-                  <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+                  <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -397,8 +400,8 @@
         <option value="$PROJECT_DIR$/testing" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Builder.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Commiter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Tcr.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Tcr.java" />
       </list>
     </option>
   </component>
@@ -707,7 +710,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
-      <workItem from="1543172342523" duration="3070000" />
+      <workItem from="1543172342523" duration="3157000" />
     </task>
     <servers />
   </component>
@@ -744,7 +747,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3070000" />
+    <option name="totallyTimeSpent" value="3157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="2880" height="1624" extended-state="6" />
@@ -815,34 +818,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Commiter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Tcr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="45" column="4" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        <state relative-caret-position="274">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
             <element signature="class#BuilderMock#0;class#TcrCoreIdeaTests#0" expanded="false" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1359#1360#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Tcr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
