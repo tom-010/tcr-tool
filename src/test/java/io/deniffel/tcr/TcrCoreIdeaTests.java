@@ -11,9 +11,11 @@ public class TcrCoreIdeaTests {
     private BuilderMock builder;
     private TesterMock tester;
     private CommiterMock commiter;
+    private ReverterMock reverter;
 
     @Before
     public void setUp() {
+        reverter = new ReverterMock();
         commiter = new CommiterMock();
         tester = new TesterMock();
         builder = new BuilderMock();
@@ -64,6 +66,16 @@ public class TcrCoreIdeaTests {
         assertFalse(commiter.wasTriggered);
     }
 
+    @Test
+    public void testFailed_revert() {
+        builder.nextResult = true;
+        tester.nextResult = false;
+
+        tcr.execute();
+
+        assertTrue(reverter.wasTriggered);
+    }
+
     public static class BuilderMock implements Builder {
         public boolean buildWasTriggered = false;
         public boolean nextResult = false;
@@ -93,6 +105,10 @@ public class TcrCoreIdeaTests {
         public void commit() {
             wasTriggered = true;
         }
+    }
+
+    public static class ReverterMock {
+        public boolean wasTriggered = true; // TODO: fix me
     }
 
 }
