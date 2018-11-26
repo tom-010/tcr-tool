@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad0773a-4be2-4f91-95e9-74a159c69559" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/ProcessRunner.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -79,17 +80,29 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Git.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Git.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+                <state relative-caret-position="216">
+                  <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#236#237#0" expanded="true" />
                     <element signature="e#302#303#0" expanded="true" />
-                    <element signature="e#1247#1248#0" expanded="true" />
-                    <element signature="e#1281#1282#0" expanded="true" />
+                    <element signature="e#351#352#0" expanded="true" />
+                    <element signature="e#385#386#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ProcessRunner.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/ProcessRunner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="108">
+                  <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -473,6 +486,7 @@
         <option value="$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/gitConnector/GitMock.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/ProcessRunner.java" />
       </list>
     </option>
   </component>
@@ -580,6 +594,41 @@
               <item name="tcr" type="b2602c69:ProjectViewProjectNode" />
               <item name="tcr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="tcr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tcr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tcr" type="462c0819:PsiDirectoryNode" />
+              <item name="gitConnector" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -593,7 +642,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -793,7 +842,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
-      <workItem from="1543172342523" duration="7953000" />
+      <workItem from="1543172342523" duration="7987000" />
     </task>
     <servers />
   </component>
@@ -830,7 +879,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7953000" />
+    <option name="totallyTimeSpent" value="7987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="2880" height="1624" extended-state="6" />
@@ -858,7 +907,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937294" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937294" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329682" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937294" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11696113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1051,14 +1100,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        <state relative-caret-position="216">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#236#237#0" expanded="true" />
             <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/ProcessRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1066,8 +1125,33 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>groovy-2.4.15</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1089,6 +1173,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>tcr_main|tcr</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -1103,6 +1200,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Gradle: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
