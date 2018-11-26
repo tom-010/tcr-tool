@@ -16,8 +16,7 @@ public class Tcr {
         if(!builder.build())
             return;
 
-        if(builder.build())
-            if(tester.test())
-                commiter.commit();
+        if(tester.test())
+            commiter.commit();
     }
 }
