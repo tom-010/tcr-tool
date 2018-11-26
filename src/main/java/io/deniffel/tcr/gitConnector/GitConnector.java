@@ -5,8 +5,7 @@ import io.deniffel.tcr.core.Reverter;
 
 public class GitConnector implements Commiter, Reverter {
 
-
-    public GitConnector() {
+    public GitConnector(Git git) {
     }
 
     @Override

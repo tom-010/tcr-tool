@@ -18,7 +18,7 @@ public class GitConnectorTests {
     @Before
     public void setUp() throws Exception {
         git = new GitMock();
-        gitConnector = new GitConnector();
+        gitConnector = new GitConnector(git);
     }
 
     @Test
