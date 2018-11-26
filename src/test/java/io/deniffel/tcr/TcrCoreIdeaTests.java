@@ -10,9 +10,11 @@ public class TcrCoreIdeaTests {
     private Tcr tcr;
     private BuilderMock builder;
     private TesterMock tester;
+    private CommiterMock commiter;
 
     @Before
     public void setUp() {
+        commiter = new CommiterMock();
         tester = new TesterMock();
         builder = new BuilderMock();
         tcr = createTcr();
@@ -47,6 +49,10 @@ public class TcrCoreIdeaTests {
         builder.nextResult = true;
         tester.nextResult = true;
 
+        tcr.execute();
+
+        assertTrue(commiter.wasTriggered);
+
     }
 
     public static class BuilderMock implements Builder {
@@ -70,4 +76,9 @@ public class TcrCoreIdeaTests {
             return true;
         }
     }
+
+    public static class CommiterMock {
+        public boolean wasTriggered = true;
+    }
+
 }
