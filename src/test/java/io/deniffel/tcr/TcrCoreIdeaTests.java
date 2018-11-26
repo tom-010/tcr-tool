@@ -44,7 +44,9 @@ public class TcrCoreIdeaTests {
 
     @Test
     public void testsWhereSuccessful_commit() {
+        builder.nextResult = true;
         tester.nextResult = true;
+
     }
 
     public static class BuilderMock implements Builder {
