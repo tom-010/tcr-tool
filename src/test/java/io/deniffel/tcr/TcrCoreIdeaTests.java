@@ -52,7 +52,6 @@ public class TcrCoreIdeaTests {
         tcr.execute();
 
         assertTrue(commiter.wasTriggered);
-
     }
 
     public static class BuilderMock implements Builder {
