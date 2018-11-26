@@ -77,7 +77,7 @@ public class TcrCoreIdeaTests {
         }
     }
 
-    public static class CommiterMock {
+    public static class CommiterMock implements Commiter {
         public boolean wasTriggered = true;
     }
 
