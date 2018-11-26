@@ -2,9 +2,9 @@ package io.deniffel.tcr;
 
 public class Tcr {
 
-    Commiter commiter;
-    Builder builder;
-    Tester tester;
+    private Commiter commiter;
+    private Builder builder;
+    private Tester tester;
 
     public Tcr(Builder builder, Tester tester, Commiter commiter) {
         this.builder = builder;
