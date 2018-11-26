@@ -109,6 +109,10 @@ public class TcrCoreIdeaTests {
 
     public static class ReverterMock {
         public boolean wasTriggered = true; // TODO: fix me
+
+        public void revert() {
+            this.wasTriggered = true;
+        }
     }
 
 }
