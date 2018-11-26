@@ -21,7 +21,7 @@ public class TcrCoreIdeaTests {
     }
 
     Tcr createTcr() {
-        return new Tcr(builder, tester);
+        return new Tcr(builder, tester, commiter);
     }
 
     @Test

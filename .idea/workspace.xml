@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Tcr.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Tcr.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java" afterPath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,15 +33,15 @@
           <file leaf-file-name="TcrCoreIdeaTests.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="832">
-                  <caret line="80" column="42" lean-forward="false" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+                <state relative-caret-position="414">
+                  <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#467#468#0" expanded="true" />
-                    <element signature="e#514#515#0" expanded="true" />
+                    <element signature="e#524#525#0" expanded="true" />
                     <element signature="class#BuilderMock#0;class#TcrCoreIdeaTests#0" expanded="false" />
-                    <element signature="e#1921#1922#0" expanded="true" />
-                    <element signature="e#1964#1965#0" expanded="true" />
+                    <element signature="e#1931#1932#0" expanded="true" />
+                    <element signature="e#1974#1975#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -62,8 +64,8 @@
           <file leaf-file-name="Tcr.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Tcr.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                <state relative-caret-position="72">
+                  <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -731,7 +733,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
-      <workItem from="1543172342523" duration="3751000" />
+      <workItem from="1543172342523" duration="3791000" />
     </task>
     <servers />
   </component>
@@ -768,7 +770,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3751000" />
+    <option name="totallyTimeSpent" value="3791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="2880" height="1624" extended-state="6" />
@@ -857,23 +859,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="80" column="42" lean-forward="false" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+        <state relative-caret-position="414">
+          <caret line="23" column="44" lean-forward="false" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
             <element signature="class#BuilderMock#0;class#TcrCoreIdeaTests#0" expanded="false" />
-            <element signature="e#1921#1922#0" expanded="true" />
-            <element signature="e#1964#1965#0" expanded="true" />
+            <element signature="e#1931#1932#0" expanded="true" />
+            <element signature="e#1974#1975#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Tcr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="72">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding />
         </state>
       </provider>
