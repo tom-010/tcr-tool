@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad0773a-4be2-4f91-95e9-74a159c69559" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Commiter.java" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Commiter.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Commiter.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java" afterPath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,15 +33,15 @@
           <file leaf-file-name="TcrCoreIdeaTests.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="886">
-                  <caret line="83" column="32" lean-forward="false" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+                <state relative-caret-position="868">
+                  <caret line="82" column="16" lean-forward="true" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#467#468#0" expanded="true" />
                     <element signature="e#514#515#0" expanded="true" />
                     <element signature="class#BuilderMock#0;class#TcrCoreIdeaTests#0" expanded="false" />
-                    <element signature="e#1903#1904#0" expanded="true" />
-                    <element signature="e#1946#1947#0" expanded="true" />
+                    <element signature="e#1921#1922#0" expanded="true" />
+                    <element signature="e#1964#1965#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -51,7 +51,7 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Commiter.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="54">
-                  <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+                  <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -733,7 +733,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
-      <workItem from="1543172342523" duration="3664000" />
+      <workItem from="1543172342523" duration="3686000" />
     </task>
     <servers />
   </component>
@@ -770,7 +770,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3664000" />
+    <option name="totallyTimeSpent" value="3686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="2880" height="1624" extended-state="6" />
@@ -860,22 +860,22 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Commiter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="886">
-          <caret line="83" column="32" lean-forward="false" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+        <state relative-caret-position="868">
+          <caret line="82" column="16" lean-forward="true" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#467#468#0" expanded="true" />
             <element signature="e#514#515#0" expanded="true" />
             <element signature="class#BuilderMock#0;class#TcrCoreIdeaTests#0" expanded="false" />
-            <element signature="e#1903#1904#0" expanded="true" />
-            <element signature="e#1946#1947#0" expanded="true" />
+            <element signature="e#1921#1922#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
           </folding>
         </state>
       </provider>

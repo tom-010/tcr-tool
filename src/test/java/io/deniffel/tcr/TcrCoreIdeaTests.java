@@ -80,6 +80,7 @@ public class TcrCoreIdeaTests {
     public static class CommiterMock implements Commiter {
         public boolean wasTriggered = true;
 
+        @Override
         public void commit() {
             wasTriggered = true;
         }
