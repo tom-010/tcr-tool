@@ -38,7 +38,7 @@ public class GitConnectorTests {
     }
 
     public static class GitMock implements Git {
-        public boolean commitWasTriggered = true;
+        public boolean commitWasTriggered = false;
 
         @Override
         public void commit() {

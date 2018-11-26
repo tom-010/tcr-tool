@@ -13,7 +13,7 @@ public class GitConnector implements Commiter, Reverter {
 
     @Override
     public void commit() {
-
+        git.commit();
     }
 
     @Override
