@@ -54,6 +54,12 @@ public class TcrCoreIdeaTests {
         assertTrue(commiter.wasTriggered);
     }
 
+    @Test
+    public void testFailed_noCommit() {
+        builder.nextResult = true;
+        tester.nextResult = false;
+    }
+
     public static class BuilderMock implements Builder {
         public boolean buildWasTriggered = false;
         public boolean nextResult = false;
