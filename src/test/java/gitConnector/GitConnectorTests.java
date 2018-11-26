@@ -12,9 +12,11 @@ import static org.junit.Assert.*;
 public class GitConnectorTests {
 
     GitConnector gitConnector;
+    GitMock git;
 
     @Before
     public void setUp() throws Exception {
+        git = new GitMock();
         gitConnector = new GitConnector();
     }
 
@@ -27,4 +29,16 @@ public class GitConnectorTests {
     public void instanceOfReverter() {
         assertTrue(gitConnector instanceof Reverter);
     }
+
+    @Test
+    public void commit_triggersGitCommit() {
+        gitConnector.commit();
+        assertTrue(git.commitWasTriggered);
+    }
+
+    public static class GitMock {
+        public boolean commitWasTriggered = true;
+    }
+
+
 }
