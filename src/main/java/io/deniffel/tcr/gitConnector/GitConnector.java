@@ -18,6 +18,6 @@ public class GitConnector implements Commiter, Reverter {
 
     @Override
     public void revert() {
-
+        git.reset();
     }
 }
