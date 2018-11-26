@@ -49,12 +49,12 @@
             <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitMock.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="72">
-                  <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+                  <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
                   <folding>
-                    <element signature="e#234#235#0" expanded="true" />
-                    <element signature="e#275#276#0" expanded="true" />
-                    <element signature="e#316#317#0" expanded="true" />
-                    <element signature="e#356#357#0" expanded="true" />
+                    <element signature="e#237#238#0" expanded="true" />
+                    <element signature="e#278#279#0" expanded="true" />
+                    <element signature="e#319#320#0" expanded="true" />
+                    <element signature="e#359#360#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -63,8 +63,8 @@
           <file leaf-file-name="Git.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="36">
-                  <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+                <state relative-caret-position="90">
+                  <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -434,9 +434,9 @@
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Tcr.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/core/Tcr.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/core/TcrCoreIdeaTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/GitConnector.java" />
         <option value="$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java" />
         <option value="$PROJECT_DIR$/src/test/java/gitConnector/GitMock.java" />
       </list>
     </option>
@@ -802,7 +802,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
-      <workItem from="1543172342523" duration="6449000" />
+      <workItem from="1543172342523" duration="6515000" />
     </task>
     <servers />
   </component>
@@ -839,7 +839,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6449000" />
+    <option name="totallyTimeSpent" value="6515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="2880" height="1624" extended-state="6" />
@@ -1007,14 +1007,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1029,15 +1021,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitMock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding>
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
           </folding>
         </state>
       </provider>
