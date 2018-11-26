@@ -46,7 +46,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="GitMock.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="GitMock.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitMock.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="72">
@@ -81,11 +81,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Git.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Git.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+                <state relative-caret-position="54">
+                  <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -457,8 +457,8 @@
         <option value="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/core/TcrCoreIdeaTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/GitConnector.java" />
         <option value="$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java" />
         <option value="$PROJECT_DIR$/src/test/java/gitConnector/GitMock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java" />
       </list>
     </option>
   </component>
@@ -763,7 +763,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
-      <workItem from="1543172342523" duration="6632000" />
+      <workItem from="1543172342523" duration="6642000" />
     </task>
     <servers />
   </component>
@@ -800,7 +800,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6632000" />
+    <option name="totallyTimeSpent" value="6642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="2880" height="1624" extended-state="6" />
@@ -984,14 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1016,6 +1008,14 @@
             <element signature="e#316#317#0" expanded="true" />
             <element signature="e#356#357#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
