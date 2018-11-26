@@ -1,7 +1,7 @@
 package io.deniffel.tcr.gitConnector;
 
-public interface Git {
-    void commit();
+public class Git {
+    public void commit() {}
 
-    void reset();
+    public void reset() {}
 }
