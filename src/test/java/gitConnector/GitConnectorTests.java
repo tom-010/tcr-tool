@@ -53,7 +53,7 @@ public class GitConnectorTests {
         }
 
         public void reset() {
-
+            resetWasTriggered = true;
         }
     }
 
