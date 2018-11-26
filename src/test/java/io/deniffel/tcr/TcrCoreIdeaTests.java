@@ -110,6 +110,7 @@ public class TcrCoreIdeaTests {
     public static class ReverterMock implements Reverter {
         public boolean wasTriggered = true; // TODO: fix me
 
+        @Override
         public void revert() {
             this.wasTriggered = true;
         }

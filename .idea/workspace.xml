@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad0773a-4be2-4f91-95e9-74a159c69559" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Reverter.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java" afterPath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java" />
     </list>
@@ -27,8 +28,8 @@
           <file leaf-file-name="TcrCoreIdeaTests.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="760">
-                  <caret line="109" column="56" lean-forward="false" selection-start-line="109" selection-start-column="56" selection-end-line="109" selection-end-column="56" />
+                <state relative-caret-position="814">
+                  <caret line="112" column="16" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#541#542#0" expanded="true" />
@@ -36,9 +37,19 @@
                     <element signature="class#BuilderMock#0;class#TcrCoreIdeaTests#0" expanded="false" />
                     <element signature="e#2408#2409#0" expanded="true" />
                     <element signature="e#2451#2452#0" expanded="true" />
-                    <element signature="e#2609#2610#0" expanded="true" />
-                    <element signature="e#2657#2658#0" expanded="true" />
+                    <element signature="e#2627#2628#0" expanded="true" />
+                    <element signature="e#2675#2676#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Reverter.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Reverter.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="36">
+                  <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -729,7 +740,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
-      <workItem from="1543172342523" duration="4248000" />
+      <workItem from="1543172342523" duration="4280000" />
     </task>
     <servers />
   </component>
@@ -766,7 +777,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4248000" />
+    <option name="totallyTimeSpent" value="4280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="2880" height="1624" extended-state="6" />
@@ -861,10 +872,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Reverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/tcr/TcrCoreIdeaTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="109" column="56" lean-forward="false" selection-start-line="109" selection-start-column="56" selection-end-line="109" selection-end-column="56" />
+        <state relative-caret-position="814">
+          <caret line="112" column="16" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#541#542#0" expanded="true" />
@@ -872,8 +891,8 @@
             <element signature="class#BuilderMock#0;class#TcrCoreIdeaTests#0" expanded="false" />
             <element signature="e#2408#2409#0" expanded="true" />
             <element signature="e#2451#2452#0" expanded="true" />
-            <element signature="e#2609#2610#0" expanded="true" />
-            <element signature="e#2657#2658#0" expanded="true" />
+            <element signature="e#2627#2628#0" expanded="true" />
+            <element signature="e#2675#2676#0" expanded="true" />
           </folding>
         </state>
       </provider>
