@@ -6,7 +6,7 @@ public class Tcr {
     private Builder builder;
     private Tester tester;
 
-    public Tcr(Builder builder, Tester tester, Commiter commiter) {
+    public Tcr(Builder builder, Tester tester, Commiter commiter, Reverter reverter) {
         this.builder = builder;
         this.tester = tester;
         this.commiter = commiter;

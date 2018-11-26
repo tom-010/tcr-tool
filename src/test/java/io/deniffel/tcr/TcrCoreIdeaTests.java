@@ -23,7 +23,7 @@ public class TcrCoreIdeaTests {
     }
 
     Tcr createTcr() {
-        return new Tcr(builder, tester, commiter);
+        return new Tcr(builder, tester, commiter, reverter);
     }
 
     @Test
