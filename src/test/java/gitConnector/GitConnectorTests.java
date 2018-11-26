@@ -2,13 +2,11 @@ package gitConnector;
 
 import io.deniffel.tcr.core.Commiter;
 import io.deniffel.tcr.core.Reverter;
-import io.deniffel.tcr.gitConnector.Git;
 import io.deniffel.tcr.gitConnector.GitConnector;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 public class GitConnectorTests {
 

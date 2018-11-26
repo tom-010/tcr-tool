@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad0773a-4be2-4f91-95e9-74a159c69559" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java" afterPath="$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gitConnector/GitMock.java" afterPath="$PROJECT_DIR$/src/test/java/gitConnector/GitMock.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -30,23 +28,22 @@
     <splitter split-orientation="horizontal" split-proportion="0.27010804">
       <split-first>
         <leaf>
-          <file leaf-file-name="GitConnectorTests.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="GitConnectorTests.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="774">
-                  <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+                <state relative-caret-position="72">
+                  <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
                   <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#566#567#0" expanded="true" />
-                    <element signature="e#626#627#0" expanded="true" />
-                    <element signature="e#676#677#0" expanded="true" />
-                    <element signature="e#736#737#0" expanded="true" />
+                    <element signature="e#509#510#0" expanded="true" />
+                    <element signature="e#569#570#0" expanded="true" />
+                    <element signature="e#619#620#0" expanded="true" />
+                    <element signature="e#679#680#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="GitMock.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="GitMock.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitMock.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="324">
@@ -784,14 +781,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
-      <workItem from="1543172342523" duration="6353000" />
+      <workItem from="1543172342523" duration="6359000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GitConnectorTests - 2018.11.26 at 07h 25m 45s.xml">
-      <configuration name="GitConnectorTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GitConnectorTests - 2018.11.26 at 07h 26m 06s.xml">
       <configuration name="GitConnectorTests" configurationId="JUnit" />
     </history-entry>
@@ -819,9 +813,12 @@
     <history-entry file="GitConnectorTests - 2018.11.26 at 07h 31m 06s.xml">
       <configuration name="GitConnectorTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GitConnectorTests - 2018.11.26 at 07h 31m 40s.xml">
+      <configuration name="GitConnectorTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6353000" />
+    <option name="totallyTimeSpent" value="6359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="2880" height="1624" extended-state="6" />
@@ -997,20 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitMock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -1020,6 +1003,19 @@
             <element signature="e#278#279#0" expanded="true" />
             <element signature="e#319#320#0" expanded="true" />
             <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
           </folding>
         </state>
       </provider>
