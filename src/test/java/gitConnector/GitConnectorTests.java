@@ -42,22 +42,4 @@ public class GitConnectorTests {
         gitConnector.revert();
         assertTrue(git.resetWasTriggered);
     }
-
-    public static class GitMock implements Git {
-
-        public boolean commitWasTriggered = false;
-        public boolean resetWasTriggered = false;
-
-        @Override
-        public void commit() {
-            commitWasTriggered = true;
-        }
-
-        @Override
-        public void reset() {
-            resetWasTriggered = true;
-        }
-    }
-
-
 }

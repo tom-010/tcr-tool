@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad0773a-4be2-4f91-95e9-74a159c69559" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/GitConnector.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/GitConnector.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java" afterPath="$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gitConnector/GitMock.java" afterPath="$PROJECT_DIR$/src/test/java/gitConnector/GitMock.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -29,21 +30,32 @@
     <splitter split-orientation="horizontal" split-proportion="0.27010804">
       <split-first>
         <leaf>
-          <file leaf-file-name="GitConnectorTests.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="GitConnectorTests.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="742">
-                  <caret line="48" column="48" lean-forward="false" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+                <state relative-caret-position="774">
+                  <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#566#567#0" expanded="true" />
                     <element signature="e#626#627#0" expanded="true" />
                     <element signature="e#676#677#0" expanded="true" />
                     <element signature="e#736#737#0" expanded="true" />
-                    <element signature="e#1210#1211#0" expanded="true" />
-                    <element signature="e#1259#1260#0" expanded="true" />
-                    <element signature="e#1308#1309#0" expanded="true" />
-                    <element signature="e#1356#1357#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GitMock.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitMock.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="324">
+                  <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#237#238#0" expanded="true" />
+                    <element signature="e#278#279#0" expanded="true" />
+                    <element signature="e#319#320#0" expanded="true" />
+                    <element signature="e#359#360#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -416,6 +428,7 @@
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/GitConnector.java" />
         <option value="$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/gitConnector/GitMock.java" />
       </list>
     </option>
   </component>
@@ -570,6 +583,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gitConnector" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -763,14 +784,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
-      <workItem from="1543172342523" duration="6319000" />
+      <workItem from="1543172342523" duration="6353000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GitConnectorTests - 2018.11.26 at 07h 04m 51s.xml">
-      <configuration name="GitConnectorTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GitConnectorTests - 2018.11.26 at 07h 25m 45s.xml">
       <configuration name="GitConnectorTests" configurationId="JUnit" />
     </history-entry>
@@ -798,9 +816,12 @@
     <history-entry file="GitConnectorTests - 2018.11.26 at 07h 30m 59s.xml">
       <configuration name="GitConnectorTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GitConnectorTests - 2018.11.26 at 07h 31m 06s.xml">
+      <configuration name="GitConnectorTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6319000" />
+    <option name="totallyTimeSpent" value="6353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="2880" height="1624" extended-state="6" />
@@ -978,18 +999,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="48" column="48" lean-forward="false" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        <state relative-caret-position="774">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#566#567#0" expanded="true" />
             <element signature="e#626#627#0" expanded="true" />
             <element signature="e#676#677#0" expanded="true" />
             <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
           </folding>
         </state>
       </provider>
