@@ -76,44 +76,14 @@ public class TcrCoreIdeaTests {
         assertTrue(reverter.wasTriggered);
     }
 
-    public static class BuilderMock implements Builder {
-        public boolean buildWasTriggered = false;
-        public boolean nextResult = false;
+    @Test
+    public void testSuccessful_noRevert() {
+        builder.nextResult = true;
+        tester.nextResult = true;
 
-        @Override
-        public boolean build() {
-            buildWasTriggered = true;
-            return nextResult;
-        }
-    }
+        tcr.execute();
 
-    public static class TesterMock implements Tester {
-        public boolean commitWasTriggered = false;
-        public boolean nextResult = false;
-
-        @Override
-        public boolean test() {
-            commitWasTriggered = true;
-            return nextResult;
-        }
-    }
-
-    public static class CommiterMock implements Commiter {
-        public boolean wasTriggered = false;
-
-        @Override
-        public void commit() {
-            wasTriggered = true;
-        }
-    }
-
-    public static class ReverterMock implements Reverter {
-        public boolean wasTriggered = false;
-
-        @Override
-        public void revert() {
-            this.wasTriggered = true;
-        }
+        assertFalse(reverter.wasTriggered);
     }
 
 }

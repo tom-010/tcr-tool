@@ -20,6 +20,7 @@ public class Tcr {
 
         if(tester.test())
             commiter.commit();
-        reverter.revert();
+        else
+            reverter.revert();
     }
 }
