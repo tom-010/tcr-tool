@@ -51,9 +51,7 @@ public class TcrCoreIdeaTests {
     @Test
     public void testsWhereSuccessful_commit() {
         tester.nextResult = true;
-
         tcr.execute();
-
         assertTrue(commiter.wasTriggered);
     }
 
