@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad0773a-4be2-4f91-95e9-74a159c69559" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileContent/fileContent.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileContent/fileContent.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build/libs/tcr-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/build/libs/tcr-1.0-SNAPSHOT.jar" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/GitConnector.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/GitConnector.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java" afterPath="$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java" />
     </list>
@@ -69,10 +70,12 @@
           <file leaf-file-name="GitConnector.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/GitConnector.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+                <state relative-caret-position="180">
+                  <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#230#231#0" expanded="true" />
+                    <element signature="e#260#261#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -411,8 +414,8 @@
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/core/Tcr.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/core/TcrCoreIdeaTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/GitConnector.java" />
         <option value="$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/GitConnector.java" />
       </list>
     </option>
   </component>
@@ -760,7 +763,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
-      <workItem from="1543172342523" duration="6089000" />
+      <workItem from="1543172342523" duration="6106000" />
     </task>
     <servers />
   </component>
@@ -783,8 +786,8 @@
     <history-entry file="GitConnectorTests - 2018.11.26 at 07h 26m 06s.xml">
       <configuration name="GitConnectorTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TcrCoreIdeaTests - 2018.11.26 at 06h 56m 07s.xml">
-      <configuration name="TcrCoreIdeaTests" configurationId="JUnit" />
+    <history-entry file="GitConnectorTests - 2018.11.26 at 07h 27m 16s.xml">
+      <configuration name="GitConnectorTests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TcrCoreIdeaTests - 2018.11.26 at 06h 56m 13s.xml">
       <configuration name="TcrCoreIdeaTests" configurationId="JUnit" />
@@ -797,7 +800,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6089000" />
+    <option name="totallyTimeSpent" value="6106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="2880" height="1624" extended-state="6" />
@@ -957,16 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/GitConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -977,6 +970,18 @@
             <element signature="e#626#627#0" expanded="true" />
             <element signature="e#676#677#0" expanded="true" />
             <element signature="e#736#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/GitConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
           </folding>
         </state>
       </provider>
