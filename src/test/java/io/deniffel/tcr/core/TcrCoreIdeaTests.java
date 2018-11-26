@@ -52,17 +52,19 @@ public class TcrCoreIdeaTests {
     }
 
     @Test
-    public void testFailed_noCommit() {
-        tester.nextResult = false;
-        tcr.execute();
-        assertFalse(commiter.wasTriggered);
-    }
-
-    @Test
     public void testFailed_revert() {
         tester.nextResult = false;
         tcr.execute();
         assertTrue(reverter.wasTriggered);
+    }
+
+    // ----
+
+    @Test
+    public void testFailed_noCommit() {
+        tester.nextResult = false;
+        tcr.execute();
+        assertFalse(commiter.wasTriggered);
     }
 
     @Test
