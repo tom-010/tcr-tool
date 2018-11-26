@@ -19,13 +19,9 @@ public class TcrCoreIdeaTests {
         commiter = new CommiterMock();
         tester = new TesterMock();
         builder = new BuilderMock();
-        tcr = createTcr();
+        tcr = new Tcr(builder, tester, commiter, reverter);
 
         builder.nextResult = true;
-    }
-
-    Tcr createTcr() {
-        return new Tcr(builder, tester, commiter, reverter);
     }
 
     @Test
