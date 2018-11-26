@@ -7,7 +7,7 @@ public class Git {
     }
 
     public void reset() {
-        
+
     }
 
 }
