@@ -20,6 +20,8 @@ public class TcrCoreIdeaTests {
         tester = new TesterMock();
         builder = new BuilderMock();
         tcr = createTcr();
+
+        builder.nextResult = true;
     }
 
     Tcr createTcr() {
@@ -48,7 +50,6 @@ public class TcrCoreIdeaTests {
 
     @Test
     public void testsWhereSuccessful_commit() {
-        builder.nextResult = true;
         tester.nextResult = true;
 
         tcr.execute();
@@ -58,32 +59,22 @@ public class TcrCoreIdeaTests {
 
     @Test
     public void testFailed_noCommit() {
-        builder.nextResult = true;
         tester.nextResult = false;
-
         tcr.execute();
-
         assertFalse(commiter.wasTriggered);
     }
 
     @Test
     public void testFailed_revert() {
-        builder.nextResult = true;
         tester.nextResult = false;
-
         tcr.execute();
-
         assertTrue(reverter.wasTriggered);
     }
 
     @Test
     public void testSuccessful_noRevert() {
-        builder.nextResult = true;
         tester.nextResult = true;
-
         tcr.execute();
-
         assertFalse(reverter.wasTriggered);
     }
-
 }
