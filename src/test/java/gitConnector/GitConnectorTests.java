@@ -53,6 +53,7 @@ public class GitConnectorTests {
             commitWasTriggered = true;
         }
 
+        @Override
         public void reset() {
             resetWasTriggered = true;
         }
