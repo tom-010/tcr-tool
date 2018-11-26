@@ -10,8 +10,8 @@ import static org.junit.Assert.assertTrue;
 
 public class GitConnectorTests {
 
-    GitConnector gitConnector;
-    GitMock git;
+    private GitConnector gitConnector;
+    private GitMock git;
 
     @Before
     public void setUp() throws Exception {
