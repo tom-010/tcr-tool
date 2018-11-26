@@ -14,7 +14,7 @@ public class Tcr {
 
     public void execute() {
         if(builder.build())
-            tester.test();
-        commiter.commit();
+            if(tester.test())
+                commiter.commit();
     }
 }
