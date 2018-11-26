@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad0773a-4be2-4f91-95e9-74a159c69559" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" />
@@ -35,18 +36,28 @@
     <splitter split-orientation="horizontal" split-proportion="0.27010804">
       <split-first>
         <leaf>
-          <file leaf-file-name="GitConnectorTests.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="GitConnectorTests.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+                <state relative-caret-position="684">
+                  <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#522#523#0" expanded="true" />
-                    <element signature="e#582#583#0" expanded="true" />
-                    <element signature="e#632#633#0" expanded="true" />
-                    <element signature="e#692#693#0" expanded="true" />
+                    <element signature="e#563#564#0" expanded="true" />
+                    <element signature="e#623#624#0" expanded="true" />
+                    <element signature="e#673#674#0" expanded="true" />
+                    <element signature="e#733#734#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Git.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="36">
+                  <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -401,6 +412,7 @@
         <option value="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/core/TcrCoreIdeaTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/GitConnector.java" />
         <option value="$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java" />
       </list>
     </option>
   </component>
@@ -533,6 +545,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tcr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tcr" type="462c0819:PsiDirectoryNode" />
+              <item name="gitConnector" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tcr" type="b2602c69:ProjectViewProjectNode" />
@@ -739,7 +760,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
-      <workItem from="1543172342523" duration="6050000" />
+      <workItem from="1543172342523" duration="6073000" />
     </task>
     <servers />
   </component>
@@ -776,7 +797,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6050000" />
+    <option name="totallyTimeSpent" value="6073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="2880" height="1624" extended-state="6" />
@@ -940,15 +961,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gitConnector/GitConnectorTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="684">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

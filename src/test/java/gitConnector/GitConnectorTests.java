@@ -2,6 +2,7 @@ package gitConnector;
 
 import io.deniffel.tcr.core.Commiter;
 import io.deniffel.tcr.core.Reverter;
+import io.deniffel.tcr.gitConnector.Git;
 import io.deniffel.tcr.gitConnector.GitConnector;
 import org.junit.Assert;
 import org.junit.Before;
@@ -36,7 +37,7 @@ public class GitConnectorTests {
         assertTrue(git.commitWasTriggered);
     }
 
-    public static class GitMock {
+    public static class GitMock implements Git {
         public boolean commitWasTriggered = true;
     }
 
