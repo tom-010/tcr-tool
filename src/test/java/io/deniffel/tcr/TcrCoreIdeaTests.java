@@ -42,6 +42,10 @@ public class TcrCoreIdeaTests {
         assertFalse(tester.commitWasTriggered);
     }
 
+    @Test
+    public void testsWhereSuccessful_commit() {
+        tester.nextResult = true;
+    }
 
     public static class BuilderMock implements Builder {
         public boolean buildWasTriggered = false;
@@ -56,6 +60,7 @@ public class TcrCoreIdeaTests {
 
     public static class TesterMock implements Tester {
         public boolean commitWasTriggered = false;
+        public boolean nextResult;
 
         @Override
         public boolean test() {
