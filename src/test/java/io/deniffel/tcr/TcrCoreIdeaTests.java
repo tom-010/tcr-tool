@@ -107,7 +107,7 @@ public class TcrCoreIdeaTests {
         }
     }
 
-    public static class ReverterMock {
+    public static class ReverterMock implements Reverter {
         public boolean wasTriggered = true; // TODO: fix me
 
         public void revert() {
