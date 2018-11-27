@@ -36,7 +36,7 @@ public class GradleConnectorTests {
     }
 
     public static class GradleMock extends Gradle {
-        public boolean buildWasTriggered = true;
+        public boolean buildWasTriggered = false;
 
         public boolean build() {
             buildWasTriggered = true;
