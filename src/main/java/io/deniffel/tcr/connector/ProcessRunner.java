@@ -1,4 +1,4 @@
-package io.deniffel.tcr.connector.git;
+package io.deniffel.tcr.connector;
 
 import java.io.BufferedReader;
 import java.io.IOException;

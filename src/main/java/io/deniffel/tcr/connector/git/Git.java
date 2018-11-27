@@ -1,5 +1,7 @@
 package io.deniffel.tcr.connector.git;
 
+import io.deniffel.tcr.connector.ProcessRunner;
+
 public class Git {
 
     private ProcessRunner process = new ProcessRunner();
