@@ -1,2 +1,1 @@
-./scripts/buildIt && (./scripts/runTests && ./scripts/commit || ./scripts/revert)
-
+java -jar tcr.jar
