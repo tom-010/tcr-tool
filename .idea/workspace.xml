@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad0773a-4be2-4f91-95e9-74a159c69559" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gitConnector/Git.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/git/Git.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gitConnector/GitConnector.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/git/GitConnector.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gitConnector/ProcessRunner.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/git/ProcessRunner.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/gitConnector/GitConnectorTests.java" afterPath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/git/GitConnectorTests.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/gitConnector/GitMock.java" afterPath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/git/GitMock.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/git/gradle/GradleConnector.java" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/fileSnapshots.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.0/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build/libs/tcr-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/build/libs/tcr-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/git/Git.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/git/Git.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/git/GitConnector.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/git/GitConnector.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/git/ProcessRunner.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/git/ProcessRunner.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/git/GitConnectorTests.java" afterPath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/git/GitConnectorTests.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/git/GitMock.java" afterPath="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/git/GitMock.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -33,7 +41,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClassicTcr.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClassicTcr.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/strategies/ClassicTcr.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -45,13 +53,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="GradleConnector.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/git/gradle/GradleConnector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -383,6 +401,7 @@
         <option value="$PROJECT_DIR$/testing" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/strategies/Tcr.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/strategies/ClassicTcr.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/git/gradle/GradleConnector.java" />
       </list>
     </option>
   </component>
@@ -525,6 +544,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tcr" type="462c0819:PsiDirectoryNode" />
               <item name="git" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tcr" type="462c0819:PsiDirectoryNode" />
+              <item name="git" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tcr" type="b2602c69:ProjectViewProjectNode" />
@@ -788,7 +817,7 @@
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
       <workItem from="1543172342523" duration="8157000" />
-      <workItem from="1543295837864" duration="1054000" />
+      <workItem from="1543295837864" duration="1085000" />
     </task>
     <servers />
   </component>
@@ -802,8 +831,8 @@
     <history-entry file="All_in_tcr_test - 2018.11.27 at 06h 25m 11s.xml">
       <configuration name="All in tcr_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GitConnectorTests - 2018.11.26 at 07h 28m 35s.xml">
-      <configuration name="GitConnectorTests" configurationId="JUnit" />
+    <history-entry file="All_in_tcr_test - 2018.11.27 at 06h 35m 02s.xml">
+      <configuration name="All in tcr_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GitConnectorTests - 2018.11.26 at 07h 30m 31s.xml">
       <configuration name="GitConnectorTests" configurationId="JUnit" />
@@ -825,7 +854,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9211000" />
+    <option name="totallyTimeSpent" value="9242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="2882" height="1632" extended-state="6" />
@@ -851,7 +880,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886335" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886335" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11766785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1078,6 +1107,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/git/gradle/GradleConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
