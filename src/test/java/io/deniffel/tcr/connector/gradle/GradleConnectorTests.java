@@ -34,7 +34,7 @@ public class GradleConnectorTests {
 
     }
 
-    public static class GradleMock {
+    public static class GradleMock extends Gradle {
 
     }
 
