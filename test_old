@@ -1,0 +1,2 @@
+./scripts/buildIt && (./scripts/runTests && ./scripts/commit || ./scripts/revert)
+
