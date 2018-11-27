@@ -9,7 +9,6 @@ import io.deniffel.tcr.strategies.ClassicTcr;
 public class Application {
 
     public static void main(String... args) {
-
         GradleConnector gradle = new GradleConnector(new Gradle());
         GitConnector git = new GitConnector(new Git());
 
