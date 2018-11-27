@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad0773a-4be2-4f91-95e9-74a159c69559" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Application.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Application.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Application.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/Gradle.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/Gradle.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -45,7 +46,7 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Application.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="90">
-                  <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -73,7 +74,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="GradleMock.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="GradleMock.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/gradle/GradleMock.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="306">
@@ -95,16 +96,16 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Gradle.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Gradle.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/Gradle.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+                <state relative-caret-position="108">
+                  <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
                   <folding>
-                    <element signature="e#92#93#0" expanded="true" />
-                    <element signature="e#119#120#0" expanded="true" />
-                    <element signature="e#148#149#0" expanded="true" />
-                    <element signature="e#175#176#0" expanded="true" />
+                    <element signature="e#192#193#0" expanded="true" />
+                    <element signature="e#219#220#0" expanded="true" />
+                    <element signature="e#248#249#0" expanded="true" />
+                    <element signature="e#275#276#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -452,11 +453,11 @@
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/strategies/ClassicTcr.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/git/gradle/GradleConnector.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/git/GradleConnectorTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/Gradle.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/GradleConnector.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/gradle/GradleMock.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/gradle/GradleConnectorTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/Gradle.java" />
       </list>
     </option>
   </component>
@@ -590,6 +591,25 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tcr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tcr" type="462c0819:PsiDirectoryNode" />
+              <item name="connector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tcr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tcr" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tcr" type="462c0819:PsiDirectoryNode" />
+              <item name="connector" type="462c0819:PsiDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -832,7 +852,7 @@
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
       <workItem from="1543172342523" duration="8157000" />
-      <workItem from="1543295837864" duration="2231000" />
+      <workItem from="1543295837864" duration="2272000" />
     </task>
     <servers />
   </component>
@@ -869,7 +889,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10388000" />
+    <option name="totallyTimeSpent" value="10429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="2882" height="1632" extended-state="6" />
@@ -1100,19 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/Gradle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="e#92#93#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/GradleConnector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1126,14 +1133,6 @@
             <element signature="e#406#407#0" expanded="true" />
             <element signature="e#442#443#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/gradle/GradleMock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,8 +1169,29 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/gradle/GradleMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="1" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/Gradle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
