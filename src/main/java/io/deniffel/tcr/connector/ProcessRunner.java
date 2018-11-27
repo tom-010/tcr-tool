@@ -10,8 +10,7 @@ public class ProcessRunner {
 
     public boolean execute(String... command) {
         try {
-            int exitCode = doExecute(command);
-            return exitCode == SUCCESSFUL_EXIT;
+            return doExecute(command) == SUCCESSFUL_EXIT;
         } catch (IOException err) {
             err.printStackTrace();
             return false;
