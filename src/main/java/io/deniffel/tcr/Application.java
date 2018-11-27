@@ -13,7 +13,8 @@ public class Application {
         GradleConnector gradle = new GradleConnector(new Gradle());
         GitConnector git = new GitConnector(new Git());
 
-        ClassicTcr tcr = new ClassicTcr();
+        ClassicTcr tcr = new ClassicTcr(gradle, gradle, git, git);
 
+        
     }
 }
