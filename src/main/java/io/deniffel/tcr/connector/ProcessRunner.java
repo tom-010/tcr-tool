@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class ProcessRunner {
+
+    private static final int SUCCESSFUL_EXIT = 0;
+
     public boolean execute(String... command) {
         try {
             int exitCode = doExecute(command);
