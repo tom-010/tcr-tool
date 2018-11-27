@@ -18,6 +18,6 @@ public class GradleConnector implements Builder, Tester {
 
     @Override
     public boolean test() {
-        return false;
+        return gradle.test();
     }
 }
