@@ -35,7 +35,7 @@ public class GradleConnectorTests {
     }
 
     public static class GradleMock {
-        
+
     }
 
 }
