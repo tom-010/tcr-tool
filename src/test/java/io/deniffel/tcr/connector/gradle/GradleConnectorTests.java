@@ -31,7 +31,8 @@ public class GradleConnectorTests {
 
     @Test
     public void buildTriggersGradle() {
-
+        gradleConnector.build();
+        assertTrue(gradle.buildWasTriggered);
     }
 
     public static class GradleMock extends Gradle {
