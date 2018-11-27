@@ -15,6 +15,6 @@ public class Application {
 
         ClassicTcr tcr = new ClassicTcr(gradle, gradle, git, git);
 
-        
+        tcr.execute();
     }
 }
