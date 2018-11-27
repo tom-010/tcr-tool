@@ -1,7 +1,10 @@
 package io.deniffel.tcr.connector.gradle;
 
+import io.deniffel.tcr.core.Builder;
 import org.junit.Before;
 import org.junit.Test;
+
+import static org.junit.Assert.assertTrue;
 
 public class GradleConnectorTests {
 
@@ -14,6 +17,6 @@ public class GradleConnectorTests {
 
     @Test
     public void instanceOfBuilder() {
-
+        assertTrue(gradleConnector instanceof Builder);
     }
 }
