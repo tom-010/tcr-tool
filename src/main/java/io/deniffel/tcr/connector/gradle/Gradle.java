@@ -11,6 +11,6 @@ public class Gradle {
     }
 
     public boolean test() {
-        return true;
+        return process.execute("gradlew", "test");
     }
 }
