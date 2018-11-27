@@ -1,6 +1,4 @@
-package io.deniffel.tcr.gitConnector;
-
-import io.deniffel.tcr.gitConnector.Git;
+package io.deniffel.tcr.connector.git;
 
 public class GitMock extends Git {
 

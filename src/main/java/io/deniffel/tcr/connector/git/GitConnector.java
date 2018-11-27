@@ -1,4 +1,4 @@
-package io.deniffel.tcr.gitConnector;
+package io.deniffel.tcr.connector.git;
 
 import io.deniffel.tcr.core.Commiter;
 import io.deniffel.tcr.core.Reverter;
