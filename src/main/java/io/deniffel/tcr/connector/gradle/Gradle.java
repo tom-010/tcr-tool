@@ -4,7 +4,7 @@ import io.deniffel.tcr.connector.ProcessRunner;
 
 public class Gradle {
 
-    ProcessRunner process = new ProcessRunner();
+    private ProcessRunner process = new ProcessRunner();
 
     public boolean build() {
         return process.execute("gradlew", "build");

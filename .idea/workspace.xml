@@ -98,13 +98,13 @@
           <file leaf-file-name="Gradle.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/Gradle.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+                <state relative-caret-position="108">
+                  <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
                   <folding>
-                    <element signature="e#192#193#0" expanded="true" />
-                    <element signature="e#250#251#0" expanded="true" />
-                    <element signature="e#279#280#0" expanded="true" />
-                    <element signature="e#336#337#0" expanded="true" />
+                    <element signature="e#200#201#0" expanded="true" />
+                    <element signature="e#258#259#0" expanded="true" />
+                    <element signature="e#287#288#0" expanded="true" />
+                    <element signature="e#344#345#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -862,14 +862,11 @@
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
       <workItem from="1543172342523" duration="8157000" />
-      <workItem from="1543295837864" duration="2453000" />
+      <workItem from="1543295837864" duration="2463000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_tcr_test - 2018.11.27 at 06h 38m 12s.xml">
-      <configuration name="All in tcr_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_tcr_test - 2018.11.27 at 06h 38m 46s.xml">
       <configuration name="All in tcr_test" configurationId="JUnit" />
     </history-entry>
@@ -897,9 +894,12 @@
     <history-entry file="All_in_tcr_test - 2018.11.27 at 06h 57m 54s.xml">
       <configuration name="All in tcr_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_tcr_test - 2018.11.27 at 06h 58m 23s.xml">
+      <configuration name="All in tcr_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10610000" />
+    <option name="totallyTimeSpent" value="10620000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="2882" height="1632" extended-state="6" />
@@ -1192,13 +1192,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/Gradle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="108">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
           </folding>
         </state>
       </provider>
