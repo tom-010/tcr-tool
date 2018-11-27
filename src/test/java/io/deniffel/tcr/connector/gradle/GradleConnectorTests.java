@@ -42,7 +42,6 @@ public class GradleConnectorTests {
             buildWasTriggered = true;
             return true;
         }
-
     }
 
 }
