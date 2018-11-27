@@ -43,14 +43,14 @@
           <file leaf-file-name="GradleConnectorTests.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/gradle/GradleConnectorTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="648">
-                  <caret line="36" column="49" lean-forward="false" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+                <state relative-caret-position="324">
+                  <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#516#517#0" expanded="true" />
-                    <element signature="e#578#579#0" expanded="true" />
-                    <element signature="e#626#627#0" expanded="true" />
-                    <element signature="e#687#688#0" expanded="true" />
+                    <element signature="e#522#523#0" expanded="true" />
+                    <element signature="e#584#585#0" expanded="true" />
+                    <element signature="e#632#633#0" expanded="true" />
+                    <element signature="e#693#694#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -60,17 +60,17 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="GradleConnector.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="GradleConnector.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/GradleConnector.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+                <state relative-caret-position="162">
+                  <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#217#218#0" expanded="true" />
-                    <element signature="e#245#246#0" expanded="true" />
-                    <element signature="e#288#289#0" expanded="true" />
-                    <element signature="e#316#317#0" expanded="true" />
+                    <element signature="e#278#279#0" expanded="true" />
+                    <element signature="e#306#307#0" expanded="true" />
+                    <element signature="e#349#350#0" expanded="true" />
+                    <element signature="e#377#378#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -88,7 +88,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Gradle.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Gradle.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/Gradle.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="36">
@@ -440,8 +440,8 @@
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/strategies/ClassicTcr.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/git/gradle/GradleConnector.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/git/GradleConnectorTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/GradleConnector.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/gradle/GradleConnectorTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/GradleConnector.java" />
       </list>
     </option>
   </component>
@@ -895,7 +895,7 @@
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
       <workItem from="1543172342523" duration="8157000" />
-      <workItem from="1543295837864" duration="1513000" />
+      <workItem from="1543295837864" duration="1539000" />
     </task>
     <servers />
   </component>
@@ -932,7 +932,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9670000" />
+    <option name="totallyTimeSpent" value="9696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-11" width="2882" height="1632" extended-state="6" />
@@ -1190,20 +1190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/GradleConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/Gradle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1214,14 +1200,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/deniffel/tcr/connector/gradle/GradleConnectorTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="49" lean-forward="false" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        <state relative-caret-position="324">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/connector/gradle/GradleConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
           </folding>
         </state>
       </provider>

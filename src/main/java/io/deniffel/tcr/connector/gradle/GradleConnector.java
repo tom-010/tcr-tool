@@ -5,6 +5,11 @@ import io.deniffel.tcr.core.Tester;
 
 public class GradleConnector implements Builder, Tester {
 
+
+    public GradleConnector(Gradle gradle) {
+        
+    }
+
     @Override
     public boolean build() {
         return false;

@@ -16,7 +16,7 @@ public class GradleConnectorTests {
     @Before
     public void setUp() throws Exception {
         gradle = new GradleMock();
-        gradleConnector = new GradleConnector();
+        gradleConnector = new GradleConnector(gradle);
     }
 
     @Test
