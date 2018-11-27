@@ -15,10 +15,11 @@ public class ProcessRunner {
         }
     }
 
-    private void doExecute(String[] command) throws IOException {
+    private int doExecute(String[] command) throws IOException {
         Process p = Runtime.getRuntime().exec(command);
         String result = readProcessOutput(p);
         System.out.println(result);
+        return p.exitValue();
     }
 
     private String readProcessOutput(Process p) throws IOException {
