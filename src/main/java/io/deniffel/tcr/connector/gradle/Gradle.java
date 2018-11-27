@@ -7,6 +7,7 @@ public class Gradle {
     ProcessRunner process = new ProcessRunner();
 
     public boolean build() {
+        process.execute("gradlew", "build");
         return true;
     }
 
