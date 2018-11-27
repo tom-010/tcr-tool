@@ -5,13 +5,15 @@ import io.deniffel.tcr.core.Tester;
 
 public class GradleConnector implements Builder, Tester {
 
-    public GradleConnector(Gradle gradle) {
+    private Gradle gradle;
 
+    public GradleConnector(Gradle gradle) {
+        this.gradle = gradle;
     }
 
     @Override
     public boolean build() {
-        return false;
+        return gradle.build();
     }
 
     @Override
