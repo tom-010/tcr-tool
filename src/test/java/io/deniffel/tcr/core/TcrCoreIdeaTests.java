@@ -1,5 +1,6 @@
 package io.deniffel.tcr.core;
 
+import io.deniffel.tcr.strategies.Tcr;
 import org.junit.Before;
 import org.junit.Test;
 
