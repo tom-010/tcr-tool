@@ -5,11 +5,13 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class ProcessRunner {
-    public void execute(String... command) {
+    public boolean execute(String... command) {
         try {
             doExecute(command);
+            return true;
         } catch (IOException err) {
             err.printStackTrace();
+            return false;
         }
     }
 
