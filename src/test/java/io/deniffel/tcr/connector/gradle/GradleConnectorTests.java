@@ -35,11 +35,23 @@ public class GradleConnectorTests {
         assertTrue(gradle.buildWasTriggered);
     }
 
+    @Test
+    public void testTriggersGradle() {
+        gradleConnector.test();
+        assertTrue(gradle.testWasTriggered);
+    }
+
     public static class GradleMock extends Gradle {
         public boolean buildWasTriggered = false;
+        public boolean testWasTriggered = true;
 
         public boolean build() {
             buildWasTriggered = true;
+            return true;
+        }
+
+        public boolean test() {
+            testWasTriggered = true;
             return true;
         }
     }
