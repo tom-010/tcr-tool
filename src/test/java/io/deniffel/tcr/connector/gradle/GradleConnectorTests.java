@@ -9,10 +9,13 @@ import static org.junit.Assert.assertTrue;
 
 public class GradleConnectorTests {
 
-    GradleConnector gradleConnector;
+    private GradleConnector gradleConnector;
+    private GradleMock gradle;
+
 
     @Before
     public void setUp() throws Exception {
+        gradle = new GradleMock();
         gradleConnector = new GradleConnector();
     }
 
@@ -25,4 +28,14 @@ public class GradleConnectorTests {
     public void instanceOfTester() {
         assertTrue(gradleConnector instanceof Tester);
     }
+
+    @Test
+    public void buildTriggersGradle() {
+
+    }
+
+    public static class GradleMock {
+        
+    }
+
 }
