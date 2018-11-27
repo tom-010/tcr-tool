@@ -7,8 +7,8 @@ import java.io.InputStreamReader;
 public class ProcessRunner {
     public boolean execute(String... command) {
         try {
-            doExecute(command);
-            return true;
+            int exitCode = doExecute(command);
+            return exitCode == 0;
         } catch (IOException err) {
             err.printStackTrace();
             return false;
