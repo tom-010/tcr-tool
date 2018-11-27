@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad0773a-4be2-4f91-95e9-74a159c69559" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java" afterPath="$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,15 +83,13 @@
           <file leaf-file-name="Git.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="15" column="70" lean-forward="false" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+                <state relative-caret-position="144">
+                  <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
                   <folding>
                     <element signature="e#142#143#0" expanded="true" />
                     <element signature="e#208#209#0" expanded="true" />
-                    <element signature="e#255#256#0" expanded="true" />
-                    <element signature="e#289#290#0" expanded="true" />
-                    <element signature="e#316#317#0" expanded="true" />
-                    <element signature="e#393#394#0" expanded="true" />
+                    <element signature="e#235#236#0" expanded="true" />
+                    <element signature="e#312#313#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -857,7 +856,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543172339399</updated>
-      <workItem from="1543172342523" duration="8106000" />
+      <workItem from="1543172342523" duration="8157000" />
     </task>
     <servers />
   </component>
@@ -894,11 +893,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8106000" />
+    <option name="totallyTimeSpent" value="8157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="2880" height="1624" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -922,7 +920,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937294" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937294" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329682" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937294" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11696113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1133,15 +1131,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/deniffel/tcr/gitConnector/Git.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="70" lean-forward="false" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+        <state relative-caret-position="144">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="e#142#143#0" expanded="true" />
             <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
           </folding>
         </state>
       </provider>

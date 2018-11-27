@@ -8,10 +8,6 @@ public class Git {
         process.execute("git", "commit", "-am", "working");
     }
 
-    public static void main(String... args) {
-        new Git().commit();
-    }
-
     public void reset() {
         process.execute("git", "checkout", "HEAD", "--", "src/main/");
     }
